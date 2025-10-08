@@ -19,6 +19,10 @@ public final class Main {
                              --prices data/isone_da_lmp_2024.csv  --out results
                              --demand-charge 15  --delivery-adder 0.12  --customer-charge 10
                              --battery-cost 1000
+              agent          Extract a tariff from a PDF with Claude, then let it run what-if simulations
+                             --pdf tariff.pdf  [--uci ... --prices ... --out results]
+              sample-tariff  Write the derived tariff as a PDF (test input for the agent)
+                             --prices data/isone_da_lmp_2024.csv  --out results/sample_tariff.pdf
             """;
 
     public static void main(String[] args) throws Exception {
@@ -37,6 +41,9 @@ public final class Main {
                 System.out.printf("Wrote %d hourly prices for %s to %s%n", prices.size(), location, out);
             }
             case "run" -> new Experiment(config(opt)).run();
+            case "agent" -> electricitybillgenerator.analytics.agent.TariffAgent.main(config(opt), Path.of(required(opt, "pdf")));
+            case "sample-tariff" -> electricitybillgenerator.analytics.agent.SampleTariffPdf.write(
+                    config(opt), Path.of(opt.getOrDefault("out", "results/sample_tariff.pdf")));
             default -> System.out.print(USAGE);
         }
     }
@@ -61,5 +68,13 @@ public final class Main {
             m.put(args[i].substring(2), args[i + 1]);
         }
         return m;
+    }
+
+    private static String required(Map<String, String> opt, String key) {
+        String v = opt.get(key);
+        if (v == null) {
+            throw new IllegalArgumentException("--" + key + " is required");
+        }
+        return v;
     }
 }
