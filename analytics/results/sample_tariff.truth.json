@@ -1,0 +1,43 @@
+{
+  "name" : "ISO-NE NEMA/Boston derived TOU + demand (.Z.NEMASSBOST)",
+  "customerChargePerMonth" : 10.0,
+  "demandChargePerKw" : 15.0,
+  "defaultEnergyRatePerKwh" : 0.1565,
+  "periods" : [ {
+    "name" : "Summer On-Peak",
+    "energyRatePerKwh" : 0.1832,
+    "months" : [ 6, 7, 8, 9 ],
+    "weekdaysOnly" : true,
+    "hours" : [ 16, 17, 18, 19, 20 ]
+  }, {
+    "name" : "Summer Mid-Peak",
+    "energyRatePerKwh" : 0.163,
+    "months" : [ 6, 7, 8, 9 ],
+    "weekdaysOnly" : true,
+    "hours" : [ 12, 13, 14, 15, 21, 22 ]
+  }, {
+    "name" : "Winter On-Peak",
+    "energyRatePerKwh" : 0.1754,
+    "months" : [ 1, 2, 3, 4, 5, 10, 11, 12 ],
+    "weekdaysOnly" : true,
+    "hours" : [ 16, 17, 18, 19, 20 ]
+  }, {
+    "name" : "Winter Mid-Peak",
+    "energyRatePerKwh" : 0.1625,
+    "months" : [ 1, 2, 3, 4, 5, 10, 11, 12 ],
+    "weekdaysOnly" : true,
+    "hours" : [ 12, 13, 14, 15, 21, 22 ]
+  }, {
+    "name" : "Summer Off-Peak",
+    "energyRatePerKwh" : 0.151,
+    "months" : [ 6, 7, 8, 9 ],
+    "weekdaysOnly" : false,
+    "hours" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23 ]
+  }, {
+    "name" : "Winter Off-Peak",
+    "energyRatePerKwh" : 0.162,
+    "months" : [ 1, 2, 3, 4, 5, 10, 11, 12 ],
+    "weekdaysOnly" : false,
+    "hours" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23 ]
+  } ]
+}

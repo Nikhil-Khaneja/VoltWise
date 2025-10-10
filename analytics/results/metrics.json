@@ -1,0 +1,688 @@
+{
+  "data" : {
+    "last" : "2010-11-26T21:02",
+    "hours" : 34587,
+    "first" : "2006-12-16T17:24",
+    "imputedHours" : 438,
+    "minutes" : 2075259
+  },
+  "anomalies" : {
+    "injectionBenchmark" : {
+      "eventRecall" : 0.9633333333333334,
+      "injectedEvents" : 600,
+      "minuteRecall" : 0.915204918706538,
+      "falseAlarmMinutes" : 19,
+      "minutePrecision" : 0.9996588256419465,
+      "falseAlarmRate" : 9.55737771712476E-6
+    },
+    "minutesByType" : {
+      "MISSING" : 25979,
+      "FLATLINE" : 401,
+      "SPIKE" : 0,
+      "PHYSICS" : 57
+    },
+    "eventsByType" : {
+      "MISSING" : 71,
+      "FLATLINE" : 1,
+      "SPIKE" : 0,
+      "PHYSICS" : 24
+    }
+  },
+  "load" : {
+    "full" : {
+      "totalKwh" : 37671.196530609304,
+      "avgKw" : 1.0891721320325354,
+      "peakKw" : 6.560533348719279,
+      "peakTime" : "2008-11-23T18:00",
+      "loadFactor" : 0.16601883934408462,
+      "avgMonthlyLoadFactor" : 0.22976960128867208,
+      "mostCommonDailyPeakHour" : 20,
+      "weekendToWeekdayRatio" : 1.1890941279445426,
+      "months" : [ {
+        "loadFactor" : 0.3411465711929329,
+        "month" : "2006-12",
+        "kwh" : 694.5276151812707,
+        "peakTime" : "2006-12-23T23:00",
+        "peakKw" : 5.562466679016749
+      }, {
+        "loadFactor" : 0.2544367329330348,
+        "month" : "2007-01",
+        "kwh" : 1150.299718790005,
+        "peakTime" : "2007-01-21T20:00",
+        "peakKw" : 6.076566676298778
+      }, {
+        "loadFactor" : 0.22017878247142175,
+        "month" : "2007-02",
+        "kwh" : 941.5986186865498,
+        "peakTime" : "2007-02-22T21:00",
+        "peakKw" : 6.36386669476827
+      }, {
+        "loadFactor" : 0.23359233067793317,
+        "month" : "2007-03",
+        "kwh" : 981.0423757524491,
+        "peakTime" : "2007-03-05T19:00",
+        "peakKw" : 5.644899984200795
+      }, {
+        "loadFactor" : 0.19357837783454043,
+        "month" : "2007-04",
+        "kwh" : 662.4050778884443,
+        "peakTime" : "2007-04-05T21:00",
+        "peakKw" : 4.752633341153463
+      }, {
+        "loadFactor" : 0.2089073900321332,
+        "month" : "2007-05",
+        "kwh" : 733.4812002566956,
+        "peakTime" : "2007-05-08T12:00",
+        "peakKw" : 4.719133335351944
+      }, {
+        "loadFactor" : 0.1800162471172128,
+        "month" : "2007-06",
+        "kwh" : 595.9502638790835,
+        "peakTime" : "2007-06-27T21:00",
+        "peakKw" : 4.597966645161311
+      }, {
+        "loadFactor" : 0.15685069610034855,
+        "month" : "2007-07",
+        "kwh" : 498.55646067237444,
+        "peakTime" : "2007-07-06T21:00",
+        "peakKw" : 4.2722333172957105
+      }, {
+        "loadFactor" : 0.16492638486555874,
+        "month" : "2007-08",
+        "kwh" : 568.6651217031778,
+        "peakTime" : "2007-08-12T23:00",
+        "peakKw" : 4.634400018056234
+      }, {
+        "loadFactor" : 0.1690064592646225,
+        "month" : "2007-09",
+        "kwh" : 697.9547678106308,
+        "peakTime" : "2007-09-17T21:00",
+        "peakKw" : 5.735766704877218
+      }, {
+        "loadFactor" : 0.21668362458449497,
+        "month" : "2007-10",
+        "kwh" : 821.3460413410479,
+        "peakTime" : "2007-10-13T20:00",
+        "peakKw" : 5.094800011316935
+      }, {
+        "loadFactor" : 0.26351596694190377,
+        "month" : "2007-11",
+        "kwh" : 932.0306740967568,
+        "peakTime" : "2007-11-17T18:00",
+        "peakKw" : 4.912366648515065
+      }, {
+        "loadFactor" : 0.25068720939997313,
+        "month" : "2007-12",
+        "kwh" : 1210.0852061992948,
+        "peakTime" : "2007-12-23T19:00",
+        "peakKw" : 6.487999983628591
+      }, {
+        "loadFactor" : 0.24277038950828722,
+        "month" : "2008-01",
+        "kwh" : 1086.2195939857543,
+        "peakTime" : "2008-01-26T19:00",
+        "peakKw" : 6.013800017038981
+      }, {
+        "loadFactor" : 0.18186847569594672,
+        "month" : "2008-02",
+        "kwh" : 822.2708842527402,
+        "peakTime" : "2008-02-02T19:00",
+        "peakKw" : 6.496033354600271
+      }, {
+        "loadFactor" : 0.24836559972550248,
+        "month" : "2008-03",
+        "kwh" : 926.5378041062698,
+        "peakTime" : "2008-03-13T21:00",
+        "peakKw" : 5.01416666507721
+      }, {
+        "loadFactor" : 0.19677534885465534,
+        "month" : "2008-04",
+        "kwh" : 803.4998667284854,
+        "peakTime" : "2008-04-20T21:00",
+        "peakKw" : 5.671300005912781
+      }, {
+        "loadFactor" : 0.2293272734332212,
+        "month" : "2008-05",
+        "kwh" : 762.0662702583637,
+        "peakTime" : "2008-05-18T21:00",
+        "peakKw" : 4.466466661294302
+      }, {
+        "loadFactor" : 0.23143188527007344,
+        "month" : "2008-06",
+        "kwh" : 715.7632768787109,
+        "peakTime" : "2008-06-15T13:00",
+        "peakKw" : 4.295499996344248
+      }, {
+        "loadFactor" : 0.1990521589018071,
+        "month" : "2008-07",
+        "kwh" : 591.3326876114584,
+        "peakTime" : "2008-07-12T15:00",
+        "peakKw" : 3.9929333289464313
+      }, {
+        "loadFactor" : 0.08700240999282886,
+        "month" : "2008-08",
+        "kwh" : 205.7587511401836,
+        "peakTime" : "2008-08-31T21:00",
+        "peakKw" : 3.1787333389123282
+      }, {
+        "loadFactor" : 0.23016235549201478,
+        "month" : "2008-09",
+        "kwh" : 711.1298667644465,
+        "peakTime" : "2008-09-22T20:00",
+        "peakKw" : 4.291233326991399
+      }, {
+        "loadFactor" : 0.19857196160785337,
+        "month" : "2008-10",
+        "kwh" : 850.8303353330763,
+        "peakTime" : "2008-10-19T01:00",
+        "peakKw" : 5.75906664331754
+      }, {
+        "loadFactor" : 0.2114640555024127,
+        "month" : "2008-11",
+        "kwh" : 998.8682314888822,
+        "peakTime" : "2008-11-23T18:00",
+        "peakKw" : 6.560533348719279
+      }, {
+        "loadFactor" : 0.27363944956483544,
+        "month" : "2008-12",
+        "kwh" : 949.0242994436303,
+        "peakTime" : "2008-12-06T13:00",
+        "peakKw" : 4.661500002940496
+      }, {
+        "loadFactor" : 0.21631714226915827,
+        "month" : "2009-01",
+        "kwh" : 1049.2694915396849,
+        "peakTime" : "2009-01-16T20:00",
+        "peakKw" : 6.519633356730143
+      }, {
+        "loadFactor" : 0.2386697343376376,
+        "month" : "2009-02",
+        "kwh" : 839.4285720448877,
+        "peakTime" : "2009-02-11T18:00",
+        "peakKw" : 5.233800021807353
+      }, {
+        "loadFactor" : 0.27919433710038116,
+        "month" : "2009-03",
+        "kwh" : 912.765799880445,
+        "peakTime" : "2009-03-01T16:00",
+        "peakKw" : 4.394199987252553
+      }, {
+        "loadFactor" : 0.22218552802529418,
+        "month" : "2009-04",
+        "kwh" : 821.2990297384063,
+        "peakTime" : "2009-04-12T21:00",
+        "peakKw" : 5.133966676394144
+      }, {
+        "loadFactor" : 0.23746063771140716,
+        "month" : "2009-05",
+        "kwh" : 753.5536005179524,
+        "peakTime" : "2009-05-03T20:00",
+        "peakKw" : 4.265300012131532
+      }, {
+        "loadFactor" : 0.24413434743769935,
+        "month" : "2009-06",
+        "kwh" : 607.3906334248684,
+        "peakTime" : "2009-06-07T13:00",
+        "peakKw" : 3.4554666757583616
+      }, {
+        "loadFactor" : 0.20267360734067685,
+        "month" : "2009-07",
+        "kwh" : 459.9672643668771,
+        "peakTime" : "2009-07-08T08:00",
+        "peakKw" : 3.0503999928633374
+      }, {
+        "loadFactor" : 0.17075702510510002,
+        "month" : "2009-08",
+        "kwh" : 489.63730017567724,
+        "peakTime" : "2009-08-18T21:00",
+        "peakKw" : 3.8541000018517177
+      }, {
+        "loadFactor" : 0.2217479013417029,
+        "month" : "2009-09",
+        "kwh" : 710.5441397410384,
+        "peakTime" : "2009-09-12T22:00",
+        "peakKw" : 4.450400002797445
+      }, {
+        "loadFactor" : 0.2454282596105302,
+        "month" : "2009-10",
+        "kwh" : 851.4878198868967,
+        "peakTime" : "2009-10-17T16:00",
+        "peakKw" : 4.663166654109955
+      }, {
+        "loadFactor" : 0.24921651279965895,
+        "month" : "2009-11",
+        "kwh" : 917.8444810028334,
+        "peakTime" : "2009-11-22T20:00",
+        "peakKw" : 5.115166676044464
+      }, {
+        "loadFactor" : 0.29186083854179345,
+        "month" : "2009-12",
+        "kwh" : 1015.2010311224732,
+        "peakTime" : "2009-12-24T19:00",
+        "peakKw" : 4.675233312447866
+      }, {
+        "loadFactor" : 0.26596780623485994,
+        "month" : "2010-01",
+        "kwh" : 1056.0462344055145,
+        "peakTime" : "2010-01-15T20:00",
+        "peakKw" : 5.336799975236257
+      }, {
+        "loadFactor" : 0.2702619937260061,
+        "month" : "2010-02",
+        "kwh" : 924.571030514098,
+        "peakTime" : "2010-02-21T11:00",
+        "peakKw" : 5.090799963474273
+      }, {
+        "loadFactor" : 0.2885659800271099,
+        "month" : "2010-03",
+        "kwh" : 852.1168715992608,
+        "peakTime" : "2010-03-08T15:00",
+        "peakKw" : 3.9690000037352244
+      }, {
+        "loadFactor" : 0.26455024120168474,
+        "month" : "2010-04",
+        "kwh" : 739.6443751143327,
+        "peakTime" : "2010-04-11T21:00",
+        "peakKw" : 3.8831333120663962
+      }, {
+        "loadFactor" : 0.2867407502378879,
+        "month" : "2010-05",
+        "kwh" : 814.9045949388016,
+        "peakTime" : "2010-05-15T23:00",
+        "peakKw" : 3.8198333303133647
+      }, {
+        "loadFactor" : 0.24602868683144474,
+        "month" : "2010-06",
+        "kwh" : 698.1290358716025,
+        "peakTime" : "2010-06-23T21:00",
+        "peakKw" : 3.941100013256073
+      }, {
+        "loadFactor" : 0.21660086558370412,
+        "month" : "2010-07",
+        "kwh" : 536.4771961543315,
+        "peakTime" : "2010-07-01T00:00",
+        "peakKw" : 3.3290333271026613
+      }, {
+        "loadFactor" : 0.17462988671136787,
+        "month" : "2010-08",
+        "kwh" : 420.2412338118382,
+        "peakTime" : "2010-08-29T21:00",
+        "peakKw" : 3.2344999969005586
+      }, {
+        "loadFactor" : 0.3167476399804644,
+        "month" : "2010-09",
+        "kwh" : 680.5943860096203,
+        "peakTime" : "2010-09-16T20:00",
+        "peakKw" : 2.984299995501836
+      }, {
+        "loadFactor" : 0.2825346227787124,
+        "month" : "2010-10",
+        "kwh" : 865.5782689284642,
+        "peakTime" : "2010-10-14T19:00",
+        "peakKw" : 4.117766666412353
+      }, {
+        "loadFactor" : 0.2127083799564281,
+        "month" : "2010-11",
+        "kwh" : 743.2591295695867,
+        "peakTime" : "2010-11-20T18:00",
+        "peakKw" : 5.62683334350586
+      } ]
+    },
+    "testYear2009" : {
+      "totalKwh" : 9428.38916344204,
+      "avgKw" : 1.0763001328130182,
+      "peakKw" : 6.519633356730143,
+      "peakTime" : "2009-01-16T20:00",
+      "loadFactor" : 0.1650859908712452,
+      "avgMonthlyLoadFactor" : 0.23497048930175338,
+      "mostCommonDailyPeakHour" : 20,
+      "weekendToWeekdayRatio" : 1.2073921551370674,
+      "months" : [ {
+        "loadFactor" : 0.21631714226915827,
+        "month" : "2009-01",
+        "kwh" : 1049.2694915396849,
+        "peakTime" : "2009-01-16T20:00",
+        "peakKw" : 6.519633356730143
+      }, {
+        "loadFactor" : 0.2386697343376376,
+        "month" : "2009-02",
+        "kwh" : 839.4285720448877,
+        "peakTime" : "2009-02-11T18:00",
+        "peakKw" : 5.233800021807353
+      }, {
+        "loadFactor" : 0.27919433710038116,
+        "month" : "2009-03",
+        "kwh" : 912.765799880445,
+        "peakTime" : "2009-03-01T16:00",
+        "peakKw" : 4.394199987252553
+      }, {
+        "loadFactor" : 0.22218552802529418,
+        "month" : "2009-04",
+        "kwh" : 821.2990297384063,
+        "peakTime" : "2009-04-12T21:00",
+        "peakKw" : 5.133966676394144
+      }, {
+        "loadFactor" : 0.23746063771140716,
+        "month" : "2009-05",
+        "kwh" : 753.5536005179524,
+        "peakTime" : "2009-05-03T20:00",
+        "peakKw" : 4.265300012131532
+      }, {
+        "loadFactor" : 0.24413434743769935,
+        "month" : "2009-06",
+        "kwh" : 607.3906334248684,
+        "peakTime" : "2009-06-07T13:00",
+        "peakKw" : 3.4554666757583616
+      }, {
+        "loadFactor" : 0.20267360734067685,
+        "month" : "2009-07",
+        "kwh" : 459.9672643668771,
+        "peakTime" : "2009-07-08T08:00",
+        "peakKw" : 3.0503999928633374
+      }, {
+        "loadFactor" : 0.17075702510510002,
+        "month" : "2009-08",
+        "kwh" : 489.63730017567724,
+        "peakTime" : "2009-08-18T21:00",
+        "peakKw" : 3.8541000018517177
+      }, {
+        "loadFactor" : 0.2217479013417029,
+        "month" : "2009-09",
+        "kwh" : 710.5441397410384,
+        "peakTime" : "2009-09-12T22:00",
+        "peakKw" : 4.450400002797445
+      }, {
+        "loadFactor" : 0.2454282596105302,
+        "month" : "2009-10",
+        "kwh" : 851.4878198868967,
+        "peakTime" : "2009-10-17T16:00",
+        "peakKw" : 4.663166654109955
+      }, {
+        "loadFactor" : 0.24921651279965895,
+        "month" : "2009-11",
+        "kwh" : 917.8444810028334,
+        "peakTime" : "2009-11-22T20:00",
+        "peakKw" : 5.115166676044464
+      }, {
+        "loadFactor" : 0.29186083854179345,
+        "month" : "2009-12",
+        "kwh" : 1015.2010311224732,
+        "peakTime" : "2009-12-24T19:00",
+        "peakKw" : 4.675233312447866
+      } ]
+    }
+  },
+  "tariff" : {
+    "name" : "ISO-NE NEMA/Boston derived TOU + demand (.Z.NEMASSBOST)",
+    "customerChargePerMonth" : 10.0,
+    "demandChargePerKw" : 15.0,
+    "defaultEnergyRatePerKwh" : 0.1565,
+    "periods" : [ {
+      "name" : "Summer On-Peak",
+      "energyRatePerKwh" : 0.1832,
+      "months" : [ 6, 7, 8, 9 ],
+      "weekdaysOnly" : true,
+      "hours" : [ 16, 17, 18, 19, 20 ]
+    }, {
+      "name" : "Summer Mid-Peak",
+      "energyRatePerKwh" : 0.163,
+      "months" : [ 6, 7, 8, 9 ],
+      "weekdaysOnly" : true,
+      "hours" : [ 12, 13, 14, 15, 21, 22 ]
+    }, {
+      "name" : "Winter On-Peak",
+      "energyRatePerKwh" : 0.1754,
+      "months" : [ 1, 2, 3, 4, 5, 10, 11, 12 ],
+      "weekdaysOnly" : true,
+      "hours" : [ 16, 17, 18, 19, 20 ]
+    }, {
+      "name" : "Winter Mid-Peak",
+      "energyRatePerKwh" : 0.1625,
+      "months" : [ 1, 2, 3, 4, 5, 10, 11, 12 ],
+      "weekdaysOnly" : true,
+      "hours" : [ 12, 13, 14, 15, 21, 22 ]
+    }, {
+      "name" : "Summer Off-Peak",
+      "energyRatePerKwh" : 0.151,
+      "months" : [ 6, 7, 8, 9 ],
+      "weekdaysOnly" : false,
+      "hours" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23 ]
+    }, {
+      "name" : "Winter Off-Peak",
+      "energyRatePerKwh" : 0.162,
+      "months" : [ 1, 2, 3, 4, 5, 10, 11, 12 ],
+      "weekdaysOnly" : false,
+      "hours" : [ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23 ]
+    } ]
+  },
+  "forecast" : {
+    "selected" : "Seasonal naive",
+    "models" : [ {
+      "model" : "Seasonal naive",
+      "mape" : 0.6913034658855863,
+      "wape" : 0.520384602156036,
+      "maeKw" : 0.5600900164143913,
+      "rmseKw" : 0.8412121636450113,
+      "dailyPeakMape" : 0.29001785877503966,
+      "coverage" : 0.5041095890410959,
+      "validationSavings2008" : 424.5729979618259,
+      "testSavings2009" : 422.9357218385703,
+      "selected" : true
+    }, {
+      "model" : "7-day average",
+      "mape" : 0.6381203269654293,
+      "wape" : 0.44085855782183536,
+      "maeKw" : 0.4744961243353971,
+      "rmseKw" : 0.6756217472647799,
+      "dailyPeakMape" : 0.27066897927125105,
+      "coverage" : 0.5906392694063927,
+      "validationSavings2008" : 344.4443639695969,
+      "testSavings2009" : 372.02154954037815,
+      "selected" : false
+    }, {
+      "model" : "GBT mean",
+      "mape" : 0.5423651656909563,
+      "wape" : 0.4058720418138904,
+      "maeKw" : 0.4368401325093812,
+      "rmseKw" : 0.6357036852387266,
+      "dailyPeakMape" : 0.2817651240138643,
+      "coverage" : 0.5569634703196347,
+      "validationSavings2008" : 370.51206615268984,
+      "testSavings2009" : 324.380366728225,
+      "selected" : false
+    }, {
+      "model" : "GBT q=0.75",
+      "mape" : 0.845350172367844,
+      "wape" : 0.4891964883067133,
+      "maeKw" : 0.5265222453361776,
+      "rmseKw" : 0.7081562116808463,
+      "dailyPeakMape" : 0.2004324811077661,
+      "coverage" : 0.7399543378995433,
+      "validationSavings2008" : 372.64796058693173,
+      "testSavings2009" : 416.5904728537189,
+      "selected" : false
+    }, {
+      "model" : "GBT q=0.90",
+      "mape" : 1.423682610917295,
+      "wape" : 0.751618033367149,
+      "maeKw" : 0.8089665891377221,
+      "rmseKw" : 0.9936826930000252,
+      "dailyPeakMape" : 0.27994748271524067,
+      "coverage" : 0.8920091324200913,
+      "validationSavings2008" : 404.9348186158427,
+      "testSavings2009" : 376.55993192891856,
+      "selected" : false
+    }, {
+      "model" : "GBT q=0.95",
+      "mape" : 1.8540881284780124,
+      "wape" : 0.9882398194165433,
+      "maeKw" : 1.0636426488891386,
+      "rmseKw" : 1.2533117011811792,
+      "dailyPeakMape" : 0.365680599962995,
+      "coverage" : 0.9407534246575342,
+      "validationSavings2008" : 371.1469503063404,
+      "testSavings2009" : 313.07510570839077,
+      "selected" : false
+    }, {
+      "model" : "GBT q=0.98",
+      "mape" : 2.471922319995113,
+      "wape" : 1.3246497784834863,
+      "maeKw" : 1.4257207325125114,
+      "rmseKw" : 1.626858260290831,
+      "dailyPeakMape" : 0.4888854041997388,
+      "coverage" : 0.9732876712328767,
+      "validationSavings2008" : 324.648007397132,
+      "testSavings2009" : 225.57309444586235,
+      "selected" : false
+    } ]
+  },
+  "battery" : {
+    "capacityKwh" : 13.5,
+    "powerKw" : 5.0,
+    "roundTripEfficiency" : 0.9,
+    "minSocFraction" : 0.1,
+    "maxSocFraction" : 1.0,
+    "initialSocFraction" : 0.5
+  },
+  "strategies" : [ {
+    "strategy" : "No battery",
+    "annualBill" : 2479.1427689655475,
+    "savings" : 0.0,
+    "savingsPct" : 0.0,
+    "avgMonthlyPeakKw" : 4.56756944751574,
+    "peakReductionPct" : 0.0,
+    "maxPeakKw" : 6.519633356730143,
+    "demandCost" : 822.1625005528331,
+    "energyCost" : 1536.9802684127146,
+    "batteryThroughputKwh" : 0.0
+  }, {
+    "strategy" : "Threshold rule (tuned on 2008)",
+    "annualBill" : 2064.4880914009623,
+    "savings" : 414.6546775645852,
+    "savingsPct" : 16.72572805226562,
+    "avgMonthlyPeakKw" : 2.2022977376036814,
+    "peakReductionPct" : 51.78403387382558,
+    "maxPeakKw" : 4.393933335940043,
+    "demandCost" : 396.41359276866274,
+    "energyCost" : 1548.0744986322993,
+    "batteryThroughputKwh" : 841.895829492053
+  }, {
+    "strategy" : "Forecast MPC (Seasonal naive, selected on 2008)",
+    "annualBill" : 2056.207047126977,
+    "savings" : 422.9357218385703,
+    "savingsPct" : 17.059756587356418,
+    "avgMonthlyPeakKw" : 2.1438142857903544,
+    "peakReductionPct" : 53.06444028001904,
+    "maxPeakKw" : 3.0800651297185206,
+    "demandCost" : 385.8865714422638,
+    "energyCost" : 1550.3204756847135,
+    "batteryThroughputKwh" : 950.13031717811
+  }, {
+    "strategy" : "Forecast MPC (perfect day-ahead forecast)",
+    "annualBill" : 2043.9554202015447,
+    "savings" : 435.18734876400276,
+    "savingsPct" : 17.553944621978747,
+    "avgMonthlyPeakKw" : 2.0582618761929043,
+    "peakReductionPct" : 54.93748042928226,
+    "maxPeakKw" : 3.30958534887464,
+    "demandCost" : 370.4871377147228,
+    "energyCost" : 1553.468282486822,
+    "batteryThroughputKwh" : 1155.9157193450278
+  }, {
+    "strategy" : "Annual LP (perfect foresight)",
+    "annualBill" : 1975.435473997076,
+    "savings" : 503.7072949684714,
+    "savingsPct" : 20.317801026789972,
+    "avgMonthlyPeakKw" : 1.691765874763331,
+    "peakReductionPct" : 62.96135408114117,
+    "maxPeakKw" : 2.7327108806490403,
+    "demandCost" : 304.5178574573996,
+    "energyCost" : 1550.9176165396764,
+    "batteryThroughputKwh" : 1441.2612871602773
+  } ],
+  "payback" : {
+    "capexUsd" : 13500.0,
+    "Threshold rule (tuned on 2008)" : 32.557211410927074,
+    "Forecast MPC (Seasonal naive, selected on 2008)" : 31.919744072014787,
+    "Forecast MPC (perfect day-ahead forecast)" : 31.021122370266557,
+    "Annual LP (perfect foresight)" : 26.801279502702073
+  },
+  "sizeSweep" : [ {
+    "lpSavings" : 356.3192704846474,
+    "ruleSavings" : 256.617090778258,
+    "paybackYearsForecastMpc" : 24.716389510763385,
+    "forecastMpcSavings" : 202.29491843145706,
+    "capexUsd" : 5000.0,
+    "paybackYearsLp" : 14.03235921874013,
+    "battery" : "5 kWh / 2.5 kW"
+  }, {
+    "lpSavings" : 468.012852226502,
+    "ruleSavings" : 373.64438444678945,
+    "paybackYearsForecastMpc" : 28.360559840845905,
+    "forecastMpcSavings" : 352.60234833579125,
+    "capexUsd" : 10000.0,
+    "paybackYearsLp" : 21.366934588284227,
+    "battery" : "10 kWh / 5 kW"
+  }, {
+    "lpSavings" : 503.7072949684714,
+    "ruleSavings" : 414.6546775645852,
+    "paybackYearsForecastMpc" : 31.919744072014787,
+    "forecastMpcSavings" : 422.9357218385703,
+    "capexUsd" : 13500.0,
+    "paybackYearsLp" : 26.801279502702073,
+    "battery" : "13.5 kWh / 5 kW"
+  }, {
+    "lpSavings" : 539.6013335406899,
+    "ruleSavings" : 392.7415652403788,
+    "paybackYearsForecastMpc" : 49.573670187507126,
+    "forecastMpcSavings" : 403.4399697329677,
+    "capexUsd" : 20000.0,
+    "paybackYearsLp" : 37.06440061733438,
+    "battery" : "20 kWh / 7 kW"
+  } ],
+  "demandChargeSensitivity" : [ {
+    "baselineBill" : 1656.9802684127146,
+    "lpSavings" : 5.551256598809914,
+    "demandChargePerKw" : 0.0,
+    "forecastMpcSavings" : -2.0463919663040997,
+    "forecastMpcPeakReductionPct" : 19.61753316962869
+  }, {
+    "baselineBill" : 1931.034435263659,
+    "lpSavings" : 159.49592257290237,
+    "demandChargePerKw" : 5.0,
+    "forecastMpcSavings" : 132.0851024315259,
+    "forecastMpcPeakReductionPct" : 53.06444028001961
+  }, {
+    "baselineBill" : 2205.0886021146034,
+    "lpSavings" : 331.18650991235245,
+    "demandChargePerKw" : 10.0,
+    "forecastMpcSavings" : 277.51041213505073,
+    "forecastMpcPeakReductionPct" : 53.06444028001959
+  }, {
+    "baselineBill" : 2479.1427689655475,
+    "lpSavings" : 503.7072949684714,
+    "demandChargePerKw" : 15.0,
+    "forecastMpcSavings" : 422.9357218385703,
+    "forecastMpcPeakReductionPct" : 53.06444028001904
+  }, {
+    "baselineBill" : 2753.196935816492,
+    "lpSavings" : 676.3772734921513,
+    "demandChargePerKw" : 20.0,
+    "forecastMpcSavings" : 568.3608767056548,
+    "forecastMpcPeakReductionPct" : 53.06444028001961
+  }, {
+    "baselineBill" : 3027.2511026674365,
+    "lpSavings" : 849.1204227553408,
+    "demandChargePerKw" : 25.0,
+    "forecastMpcSavings" : 713.7863412456163,
+    "forecastMpcPeakReductionPct" : 53.06444028001904
+  } ],
+  "assumptions" : {
+    "trainYear" : "2008 (rule thresholds); Dec 2006-2008 (forecaster)",
+    "batteryCostPerKwh" : 1000.0,
+    "deliveryAdderPerKwh" : 0.12,
+    "testYear" : "2009",
+    "customerChargePerMonth" : 10.0,
+    "demandChargePerKw" : 15.0
+  }
+}
