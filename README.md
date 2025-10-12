@@ -405,6 +405,32 @@ sequenceDiagram
   (rule, forecast or optimal strategy, any size) and writes a recommendation with a configuration
   table, payback and next steps, citing only numbers the tools returned.
 
+### Agent results (sample tariff PDF)
+
+<!-- TODO-REAL: replace with numbers from a live agent run -->
+| Check | Result |
+|---|---|
+| Hours priced correctly (extracted vs ground truth, 8,760 h) | 100.0% |
+| Demand charge / customer charge | match / match |
+| Periods extracted | 6 of 6 |
+| Tool calls in the analysis stage | 7 (1 `DescribeLoad`, 6 `SimulateBattery`) |
+| End-to-end runtime | 68 s |
+| API cost per run | ~$0.14 |
+
+Excerpt from `results/agent_report.md`:
+<!-- TODO-REAL: replace with an excerpt from the real report -->
+
+> | Battery | Strategy | Annual savings | Peak cut | Payback |
+> |---|---|---|---|---|
+> | 13.5 kWh / 5 kW | forecast MPC | $422.94 | 53.1% | 31.9 yr |
+> | 13.5 kWh / 5 kW | optimal (upper bound) | $503.71 | 63.0% | 26.8 yr |
+> | 5 kWh / 2.5 kW | optimal (upper bound) | $357 | 41.2% | 14.0 yr |
+>
+> **Recommendation:** under this tariff most of the value comes from the $15/kW demand charge, so a
+> smaller battery dedicated to peak shaving pays back roughly twice as fast as a 13.5 kWh unit.
+> Next steps: confirm the demand-charge billing window with the utility and get installed-cost
+> quotes for 5–7 kWh systems.
+
 You need an API key to run it (`ANTHROPIC_API_KEY`, or a profile from `ant auth login`):
 
 ```bash
